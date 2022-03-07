@@ -177,7 +177,7 @@ const FXCentre = (props) => {
 </svg>
 </div>
 
-					<div className={"mt-4 flex items-center text-grey"}><img className={'mr-2 w-8'} src="/assets/AUSFlag.svg" alt="aus Flag" /><span className={"mr-4"}>{"AUS"}</span>{"Australian Dollar"}</div>
+					<div className={"mt-4 flex items-center text-grey"}><img className={'mr-2 w-8'} src="/assets/AUSflag.svg" alt="aus Flag" /><span className={"mr-4"}>{"AUS"}</span>{"Australian Dollar"}</div>
 					<div className={"mt-4 flex items-center"}> {"71.11923"}</div>
 					<div className={"mt-4 flex items-center text-green"}>{"+0.84%"}</div>
 					<div className={"mt-4 flex items-center"}><svg width="110" height="42" viewBox="0 0 110 42" fill="none" xmlns="http://www.w3.org/2000/svg">
