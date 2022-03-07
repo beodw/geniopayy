@@ -2,7 +2,7 @@
 import React from 'react';
 
 
-const Bcard = (props) => { return (<div className={"col-span-1"}>
+const Bcard = (props) => { return (<div className={"w-full"}>
 
 							<div className={"border-2 border-greyBorder rounded-lg flex items-center justify-between p-4"}>
 								<div className={"flex flex-col w-full"}>

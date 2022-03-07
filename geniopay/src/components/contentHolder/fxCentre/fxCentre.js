@@ -24,23 +24,23 @@ const FXCentre = (props) => {
 
 	return (
 		<div>
-		<div className={"mt-4 pl-8 flex justify-start px-4 text-grey"}>
+		<div className={"mt-4 flex justify-start px-0 md:px-4 text-grey"}>
 						<div className={"cursor-pointer flex items-center mr-10"}>
 							<img src="/assets/swap.svg" alt="exchange icon" />
-							<span className={"ml-3"}>{"Balance Exchange"}</span>
+							<span className={"ml-3 text-xs md:text-sm"}>{"Balance Exchange"}</span>
 						</div>
 						<div className={"cursor-pointer items-center flex mr-10"}>
 							<img src="/assets/dollarIcon.svg" alt="dollar icon" />
-							<span className={"ml-3"}>{"Forward Rate"}</span>
+							<span className={"ml-3 text-xs md:text-sm"}>{"Forward Rate"}</span>
 						</div>
 						<div className={"cursor-pointer items-center flex "}>
 							<img src="/assets/sendAlt.svg" alt="sendAlt icon" />
-							<span className={"ml-3"}>{"Convert & Send"}</span>
+							<span className={"ml-3 text-xs md:text-sm"}>{"Convert & Send"}</span>
 						</div>
 						
 		</div>
 				
-				<div className={"mt-4 flex justify-start"}>
+				<div className={"mt-4 grid gap-4 grid-cols-1 md:grid-cols-3"}>
 
 					<div className={"flex flex-col mr-6"}>
 
@@ -68,7 +68,9 @@ const FXCentre = (props) => {
 
 					</div>
 
-					<div className={"flex flex-col justify-end mr-6"}>
+					<div className={"flex"}>
+
+					<div className={"flex flex-col justify-end mr-6 hidden md:block"}>
 						<svg className={"w-6"} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 							<path d="M3.83632 16.8396L17.4541 16.8396" stroke="#55676B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 							<path d="M7.93262 20.9173L3.83595 16.8395L7.93262 12.7617" stroke="#55676B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -78,9 +80,8 @@ const FXCentre = (props) => {
 
 					</div>
 
-					<div className={"flex flex-col"}>
-
-							<div>{"To"}</div>
+							<div className={'flex flex-col flex-grow'}>
+								<div>{"To"}</div>
 							<div className={"my-2 flex p-2 border-solid border-2 bg-searchBG border-greyBorder focus-within:border-teal rounded-lg items-center"}>
 								<div className={"mr-4"}> <img src="./assets/EURFlagAlt.svg" alt="EURFlag icon" /></div>
 								<input className={"mr-8 rounded-lg bg-searchBG border-none outline-0"} placeholder={"EUR - Euro"} type="select" name="search" id="search" />
@@ -93,6 +94,7 @@ const FXCentre = (props) => {
 							</div>
 							<div className={"text-grey"}><span>{"They recieve:"}</span><span className={"font-bold"}>{" €0.00"}</span></div>
 
+							</div>
 					</div>
 
 				</div>

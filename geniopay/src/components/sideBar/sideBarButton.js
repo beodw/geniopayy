@@ -13,7 +13,7 @@ const SideBarButton = (props) => {
 				
 
 					
-								<a onClick={()=> { props.onClick(props.index); /*navigate(props.name);*/ } } className={staticClassNames + ' ' + dynamicClassNames}>
+								<a onClick={()=> { console.log(props); props.onClick(props.index); /*navigate(props.name);*/ } } className={staticClassNames + ' ' + dynamicClassNames}>
 									{props.icon}
 									<span className={'grow font-bold font-nunito'}>{props.name}</span>
 								</a>

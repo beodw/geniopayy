@@ -6,7 +6,7 @@ const Card = (props) => {
 
 	return (
 
-			<div className={"block rounded-xl " + props.bgColor + " " + "p-4 m-1 w-60"}>
+			<div className={"block rounded-xl " + props.bgColor + " " + "p-4 m-1 w-full col-span-12 md:col-span-1"}>
 				<div className={"flex justify-between"}>
 					<div className={"block"}>
 						<div className={"text-sm"}>{props.cardName}</div>

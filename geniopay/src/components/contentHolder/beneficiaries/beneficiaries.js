@@ -17,14 +17,14 @@ const Beneficiaries = (props) => {
 				</div>
 
 
-				<div className={"mt-4 flex justify-start px-4 text-grey"}>
+				<div className={"mt-4 grid grid-cols-1 md:grid-cols-5 px-4 text-grey"}>
 						<div className={"cursor-pointer mr-8"}>{"Own Accounts"}</div>
 						<span className={"cursor-pointer border-b-2 border-teal mr-8"}>{"Third Party accounts"}</span>
 						<span className={"cursor-pointer mr-8"}>{"Borderless Recipient"}</span>
 						<span className={"cursor-pointer mr-8"}>{"Mobile Money Recipients"}</span>
 				</div>
 
-				<div className={"mt-8 flex justify-between items-center"}>
+				<div className={"mt-8 grid grid-cols-1 md:grid-cols-2 justify-between items-center"}>
 
 					<div className={"font-bold"}>{"53  Beneficiaries"}</div>
 					<div className={"flex justify-end"}>
@@ -36,7 +36,7 @@ const Beneficiaries = (props) => {
 						</div>
 
 						<div className={"ml-4 cursor-pointer flex items-center"}>
-							<span className={"mr-2"}>{"Sort by: "}</span>
+							<span className={"mr-2 text-xs md:text-sm"}>{"Sort by: "}</span>
 							<span className={"text-buttonActive mr-2"}>{"All"}</span>
 
 							<svg width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -49,7 +49,7 @@ const Beneficiaries = (props) => {
 
 				</div>
 
-				<div className={"mt-8 grid grid-cols-3 gap-4"}>
+				<div className={"w-full mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4"}>
 
 				<Bcard />
 				<Bcard />

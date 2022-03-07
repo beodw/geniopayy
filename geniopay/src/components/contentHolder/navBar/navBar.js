@@ -1,17 +1,27 @@
 import React from 'react';
+import SideBar from '../../sideBar/sideBar.js';
 
 
 
 const NavBar = (props) => {
 
+
+
+
+
 	return (
 
-			<div className={"items-center flex p-4"}>
+			<div className={"w-full items-center grid grid-cols-1 md:grid-cols-2 p-4"}>
 
-				<div>
+				<div className={'flex block md:hidden py-4'}>
 
-					<h1 className={"text-lg text-grey font-bold"}>{props.navHeading === "Dashboard" ? "Welcome, Huss Smith" : props.navHeading}</h1>
-				
+					<h1 className={"text-lg text-grey font-bold flex-grow"}>{props.navHeading === "Dashboard" ? "Welcome, Huss Smith" : props.navHeading}</h1>
+				<button id={'mobile-menu-button'} onClick={() => { document.querySelector(".mobile-menu").classList.toggle('hidden'); }}>Switch</button>
+				</div>
+
+				<div className={'mobile-menu hidden flex py-4'}>
+					{console.log(props)}
+					<SideBar currentSection={props.currentSection} switcher={props.switcher} />
 				</div>
 
 				<div className={"items-center flex justify-end grow"}>

@@ -15,19 +15,20 @@ const App = (props) => {
   return (
 
    
-   	<div className= {" grid grid-cols-12 font-nunito"} >
+   	<div className= {"w-full font-nunito"} >
 
-  		<div className={" xs:hidden sm:hidden md:hidden lg:flex col-span-3"}>
-  			<SideBar currentSection={currentSection} switcher={changeCurrentSection} />
-  		</div>
+  		<div className={'grid grid-cols-12 '}>
+      <div className={"hidden md:block lg:flex col-span-4"}>
+        <SideBar currentSection={currentSection} switcher={changeCurrentSection} />
+      </div>
 
-   		<div className={"col-span-9"}>
+      <div className={"col-span-12 md:col-span-8"}>
 
            <div> 
-                 <NavBar navHeading={ currentSection } /> 
+                 <NavBar currentSection={currentSection} switcher={changeCurrentSection} navHeading={ currentSection } /> 
            </div>
 
-  			   <div className={' px-8 py-8'}>
+           <div className={' px-8 py-8'}>
 
            { 
 
@@ -40,7 +41,8 @@ const App = (props) => {
            }
                 
             </div>
-   		</div>
+      </div>
+      </div>
 	</div>
 
   );
