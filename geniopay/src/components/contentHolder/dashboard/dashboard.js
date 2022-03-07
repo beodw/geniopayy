@@ -72,10 +72,12 @@ const Dashboard = (props) => {
 								<div><img src="/assets/mobileMoney.svg" alt="mobile money icon" /></div>
 								<div className={"text-center"}>{"Mobile Money"}</div>
 							</div>
-							<div className={"flex flex-col border-solid border border-silver rounded-lg p-4 justify-items-center items-center"}>
+
+							<div className={"mr-2 flex flex-col border-solid border border-silver rounded-lg p-4 justify-items-center items-center"}>
 								<div><img src="/assets/paymentLinkIcon.svg" alt="mobile money icon" /></div>
-								<div>{"Payment Link"}</div>
+								<div className={"text-center"}>{"Payment Link"}</div>
 							</div>
+							
 						</div>
 					</div>
 				</div>

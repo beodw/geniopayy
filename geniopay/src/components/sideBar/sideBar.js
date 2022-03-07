@@ -154,7 +154,7 @@ const SideBar = (props) => {
 
 				</div>
 
-				<div className={"bg-beige mb-2 rounded-lg p-8 my-6"}>
+				<div className={"bg-beige mb-2 rounded-lg p-8 my-6 "}>
 						
 						<div className={'flex pb-3 mb-2'}>
 							<img alt={"horn icon"} className={'w-16 object-contain'} src={'/assets/horn.png'} />

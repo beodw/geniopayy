@@ -18,11 +18,13 @@ const App = (props) => {
    	<div className= {"w-full font-nunito"} >
 
   		<div className={'grid grid-cols-12 '}>
-      <div className={"hidden md:block lg:flex col-span-4"}>
+      <div className={"bg-red h-screen overflow-y-scroll hidden md:block lg:flex col-span-2"}>
         <SideBar currentSection={currentSection} switcher={changeCurrentSection} />
       </div>
 
-      <div className={"col-span-12 md:col-span-8"}>
+      <div className={'hidden col-span-2'}></div>
+
+      <div className={"col-span-12 md:col-span-8 "}>
 
            <div> 
                  <NavBar currentSection={currentSection} switcher={changeCurrentSection} navHeading={ currentSection } /> 
