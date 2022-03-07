@@ -132,7 +132,7 @@ const FXCentre = (props) => {
 					<div className={"border-b border-silver font-bold pb-2"}>{"Change(24hrs)"}</div>
 					<div className={"border-b border-silver font-bold pb-2"}>{"Chart(24hrs)"}</div>
 
-					<div className={"mt-4 flex items-center text-grey"}><img className={'mr-2 w-8'} src="/assets/USDFlag.svg" alt="us Flag" />{"USD US Dollar"}</div>
+					<div className={"mt-4 flex items-center text-grey"}><img className={'mr-2 w-8'} src="/assets/USDflag.svg" alt="us Flag" />{"USD US Dollar"}</div>
 					<div className={"mt-4 flex items-center"}> {"1.605923"}</div>
 					<div className={"mt-4 flex items-center text-green"}>{"+0.53%"}</div>
 					<div className={"mt-4 flex items-center"}><svg width="110" height="42" viewBox="0 0 110 42" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -147,7 +147,7 @@ const FXCentre = (props) => {
 </svg>
 </div>
 
-					<div className={"mt-4 flex items-center text-grey"}><img className={'mr-2 w-8'} src="/assets/EURFlag.svg" alt="us Flag" />{"USD US Dollar"}</div>
+					<div className={"mt-4 flex items-center text-grey"}><img className={'mr-2 w-8'} src="/assets/EURflag.svg" alt="us Flag" />{"USD US Dollar"}</div>
 					<div className={"mt-4 flex items-center"}> {"1.605923"}</div>
 					<div className={"mt-4 flex items-center text-red"}>{"-1.03%"}</div>
 					<div className={"mt-4 flex items-center"}><svg width="110" height="42" viewBox="0 0 110 42" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -162,7 +162,7 @@ const FXCentre = (props) => {
 </svg>
 </div>
 
-					<div className={"mt-4 flex items-center text-grey"}><img className={'mr-2 w-8'} src="/assets/GBPFlag.svg" alt="us Flag" />{"USD US Dollar"}</div>
+					<div className={"mt-4 flex items-center text-grey"}><img className={'mr-2 w-8'} src="/assets/GBPflag.svg" alt="us Flag" />{"USD US Dollar"}</div>
 					<div className={"mt-4 flex items-center"}> {"1.605923"}</div>
 					<div className={"mt-4 flex items-center text-red"}>{"-0.25%"}</div>
 					<div className={"mt-4 flex items-center"}><svg width="110" height="42" viewBox="0 0 110 42" fill="none" xmlns="http://www.w3.org/2000/svg">
