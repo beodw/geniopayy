@@ -132,7 +132,7 @@ const FXCentre = (props) => {
 					<div className={"border-b border-silver font-bold pb-2"}>{"Change(24hrs)"}</div>
 					<div className={"border-b border-silver font-bold pb-2"}>{"Chart(24hrs)"}</div>
 
-					<div className={"mt-4 flex items-center text-grey"}><img className={'mr-2 w-8'} src="/assets/USDflag.svg" alt="us Flag" />{"USD US Dollar"}</div>
+					<div className={"mt-4 flex items-center text-grey"}><img className={'mr-2 w-8'} src="/assets/USDflag.svg" alt="us Flag" /><span className={"mr-4"}>{"USD"}</span>{"US Dollar"}</div>
 					<div className={"mt-4 flex items-center"}> {"1.605923"}</div>
 					<div className={"mt-4 flex items-center text-green"}>{"+0.53%"}</div>
 					<div className={"mt-4 flex items-center"}><svg width="110" height="42" viewBox="0 0 110 42" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -147,8 +147,8 @@ const FXCentre = (props) => {
 </svg>
 </div>
 
-					<div className={"mt-4 flex items-center text-grey"}><img className={'mr-2 w-8'} src="/assets/EURflag.svg" alt="us Flag" />{"USD US Dollar"}</div>
-					<div className={"mt-4 flex items-center"}> {"1.605923"}</div>
+					<div className={"mt-4 flex items-center text-grey"}><img className={'mr-2 w-8'} src="/assets/EURflag.svg" alt="us Flag" /><span className={"mr-4"}>{"EUR"}</span>{"Euro"}</div>
+					<div className={"mt-4 flex items-center"}> {"1.700041"}</div>
 					<div className={"mt-4 flex items-center text-red"}>{"-1.03%"}</div>
 					<div className={"mt-4 flex items-center"}><svg width="110" height="42" viewBox="0 0 110 42" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M109.5 30.4033C109.5 30.4033 100.408 28.6163 99.7591 30.4033C99.1097 32.1902 94.3475 33.2623 94.3475 33.2623C94.3475 33.2623 88.2865 30.4033 85.6889 29.5098C83.0913 28.6163 79.8443 30.4033 79.8443 30.4033C79.8443 30.4033 71.8351 25.2212 71.4022 27.5442C70.9693 29.8672 62.3107 27.5442 62.3107 27.5442C62.3107 27.5442 58.1979 23.0769 55.6003 24.149C53.0027 25.2212 51.0545 21.6474 51.0545 21.6474H45.6429C45.6429 21.6474 47.3746 20.0391 45.6429 17.8948C43.9112 15.7505 40.8807 13.7849 40.8807 13.7849H36.7679L32.4386 15.3931L29.841 12.3554C30.9955 11.9384 32.6117 10.8186 29.841 9.67501C27.0702 8.53138 24.6458 7.53071 23.78 7.17332C23.5635 7.7094 22.8708 8.4599 21.8318 7.17332C20.7928 5.88674 18.224 3.18254 17.0696 1.99126C17.0696 1.99126 17.0696 1.99133 15.7708 1.0978C14.472 0.204279 3.3611 5.62129 0.499999 9.67484" stroke="#DC2626" stroke-width="1.11392"/>
@@ -162,8 +162,8 @@ const FXCentre = (props) => {
 </svg>
 </div>
 
-					<div className={"mt-4 flex items-center text-grey"}><img className={'mr-2 w-8'} src="/assets/GBPflag.svg" alt="us Flag" />{"USD US Dollar"}</div>
-					<div className={"mt-4 flex items-center"}> {"1.605923"}</div>
+					<div className={"mt-4 flex items-center text-grey"}><img className={'mr-2 w-8'} src="/assets/GBPflag.svg" alt="us Flag" /><span className={"mr-4"}>{"GBP"}</span>{"British Pound"}</div>
+					<div className={"mt-4 flex items-center"}> {"0.554125"}</div>
 					<div className={"mt-4 flex items-center text-red"}>{"-0.25%"}</div>
 					<div className={"mt-4 flex items-center"}><svg width="110" height="42" viewBox="0 0 110 42" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M109.5 30.4033C109.5 30.4033 100.408 28.6163 99.7591 30.4033C99.1097 32.1902 94.3475 33.2623 94.3475 33.2623C94.3475 33.2623 88.2865 30.4033 85.6889 29.5098C83.0913 28.6163 79.8443 30.4033 79.8443 30.4033C79.8443 30.4033 71.8351 25.2212 71.4022 27.5442C70.9693 29.8672 62.3107 27.5442 62.3107 27.5442C62.3107 27.5442 58.1979 23.0769 55.6003 24.149C53.0027 25.2212 51.0545 21.6474 51.0545 21.6474H45.6429C45.6429 21.6474 47.3746 20.0391 45.6429 17.8948C43.9112 15.7505 40.8807 13.7849 40.8807 13.7849H36.7679L32.4386 15.3931L29.841 12.3554C30.9955 11.9384 32.6117 10.8186 29.841 9.67501C27.0702 8.53138 24.6458 7.53071 23.78 7.17332C23.5635 7.7094 22.8708 8.4599 21.8318 7.17332C20.7928 5.88674 18.224 3.18254 17.0696 1.99126C17.0696 1.99126 17.0696 1.99133 15.7708 1.0978C14.472 0.204279 3.3611 5.62129 0.499999 9.67484" stroke="#DC2626" stroke-width="1.11392"/>
@@ -177,8 +177,8 @@ const FXCentre = (props) => {
 </svg>
 </div>
 
-					<div className={"mt-4 flex items-center text-grey"}><img className={'mr-2 w-8'} src="/assets/EURFlag.svg" alt="us Flag" />{"USD US Dollar"}</div>
-					<div className={"mt-4 flex items-center"}> {"1.605923"}</div>
+					<div className={"mt-4 flex items-center text-grey"}><img className={'mr-2 w-8'} src="/assets/AUSFlag.svg" alt="aus Flag" /><span className={"mr-4"}>{"AUS"}</span>{"Australian Dollar"}</div>
+					<div className={"mt-4 flex items-center"}> {"71.11923"}</div>
 					<div className={"mt-4 flex items-center text-green"}>{"+0.84%"}</div>
 					<div className={"mt-4 flex items-center"}><svg width="110" height="42" viewBox="0 0 110 42" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M0.5 30.4033C0.5 30.4033 9.59152 28.6163 10.2409 30.4033C10.8903 32.1902 15.6525 33.2623 15.6525 33.2623C15.6525 33.2623 21.7135 30.4033 24.3111 29.5098C26.9087 28.6163 30.1557 30.4033 30.1557 30.4033C30.1557 30.4033 38.1649 25.2212 38.5978 27.5442C39.0307 29.8672 47.6893 27.5442 47.6893 27.5442C47.6893 27.5442 51.8021 23.0769 54.3997 24.149C56.9973 25.2212 58.9455 21.6474 58.9455 21.6474H64.3571C64.3571 21.6474 62.6254 20.0391 64.3571 17.8948C66.0888 15.7505 69.1193 13.7849 69.1193 13.7849H73.2321L77.5614 15.3931L80.159 12.3554C79.0045 11.9384 77.3883 10.8186 80.159 9.67501C82.9298 8.53138 85.3542 7.53071 86.22 7.17332C86.4365 7.7094 87.1292 8.4599 88.1682 7.17332C89.2072 5.88674 91.776 3.18254 92.9304 1.99126C92.9304 1.99126 92.9304 1.99133 94.2292 1.0978C95.528 0.204279 106.639 5.62129 109.5 9.67484" stroke="#22C55E" stroke-width="1.11392"/>
@@ -192,8 +192,8 @@ const FXCentre = (props) => {
 </svg>
 </div>
 
-					<div className={"mt-4 flex items-center text-grey"}><img className={'mr-2 w-8'} src="/assets/EURFlag.svg" alt="eur Flag" />{"USD US Dollar"}</div>
-					<div className={"mt-4 flex items-center"}> {"1.605923"}</div>
+					<div className={"mt-4 flex items-center text-grey"}><img className={'mr-2 w-8'} src="/assets/CADflag.svg" alt="cad Flag" /><span className={"mr-4"}>{"CAD"}</span>{"Canadian Dollar"}</div>
+					<div className={"mt-4 flex items-center"}> {"0.114523"}</div>
 					<div className={"mt-4 flex items-center text-green"}>{"+2.44%"}</div>
 					<div className={"mt-4 flex items-center"}><svg width="110" height="42" viewBox="0 0 110 42" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M0.5 30.4033C0.5 30.4033 9.59152 28.6163 10.2409 30.4033C10.8903 32.1902 15.6525 33.2623 15.6525 33.2623C15.6525 33.2623 21.7135 30.4033 24.3111 29.5098C26.9087 28.6163 30.1557 30.4033 30.1557 30.4033C30.1557 30.4033 38.1649 25.2212 38.5978 27.5442C39.0307 29.8672 47.6893 27.5442 47.6893 27.5442C47.6893 27.5442 51.8021 23.0769 54.3997 24.149C56.9973 25.2212 58.9455 21.6474 58.9455 21.6474H64.3571C64.3571 21.6474 62.6254 20.0391 64.3571 17.8948C66.0888 15.7505 69.1193 13.7849 69.1193 13.7849H73.2321L77.5614 15.3931L80.159 12.3554C79.0045 11.9384 77.3883 10.8186 80.159 9.67501C82.9298 8.53138 85.3542 7.53071 86.22 7.17332C86.4365 7.7094 87.1292 8.4599 88.1682 7.17332C89.2072 5.88674 91.776 3.18254 92.9304 1.99126C92.9304 1.99126 92.9304 1.99133 94.2292 1.0978C95.528 0.204279 106.639 5.62129 109.5 9.67484" stroke="#22C55E" stroke-width="1.11392"/>
