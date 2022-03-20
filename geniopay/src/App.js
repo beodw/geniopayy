@@ -4,9 +4,11 @@ import SideBar from './components/sideBar/sideBar.js';
 import Dashboard from './components/contentHolder/dashboard/dashboard.js';
 import NotYetImpl from './components/contentHolder/notYetImpl.js';
 import NavBar from './components/contentHolder/navBar/navBar.js';
-import Wallet from './components/contentHolder/wallet/wallet.js';
+import Wallet from './components/contentHolder/wallet/wallet.js'; 
 import FXCentre from './components/contentHolder/fxCentre/fxCentre.js';
 import Beneficiaries from './components/contentHolder/beneficiaries/beneficiaries.js';
+
+//
 
 const App = (props) => {
 
