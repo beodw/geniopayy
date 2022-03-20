@@ -11,20 +11,20 @@ const NavBar = (props) => {
 
 	return (
 
-			<div className={"w-full items-center grid grid-cols-1 md:grid-cols-2 p-4"}>
+			<div className={"items-center p-4"}>
 
 				<div className={'flex block md:hidden py-4'}>
 
 					<h1 className={"text-lg text-grey font-bold flex-grow"}>{props.navHeading === "Dashboard" ? "Welcome, Huss Smith" : props.navHeading}</h1>
-				<button id={'mobile-menu-button'} onClick={() => { document.querySelector(".mobile-menu").classList.toggle('hidden'); }}>Switch</button>
+				<button id={'mobile-menu-button'} onClick={() => { document.querySelector(".mobile-menu").classList.toggle('hidden'); }}>Menu</button>
 				</div>
 
 				<div className={'mobile-menu hidden flex py-4'}>
-					{console.log(props)}
+					
 					<SideBar currentSection={props.currentSection} switcher={props.switcher} />
 				</div>
 
-				<div className={"items-center flex justify-end grow"}>
+				<div className={"items-center flex justify-end "}>
 					<div className={"grid grid-cols-2 "}> 
 						
 						<div className={"flex p-2 border-solid border bg-searchBG border-greyBorder focus-within:border-teal rounded-2xl items-center"}>
@@ -61,6 +61,7 @@ const NavBar = (props) => {
 						
 					</div>
 				</div>
+
 
 			</div>
 		);

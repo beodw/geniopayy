@@ -18,7 +18,7 @@ const App = (props) => {
    	<div className= {"w-full font-nunito"} >
 
   		<div className={'grid grid-cols-12 '}>
-      <div className={"h-screen overflow-y-scroll hidden md:block lg:flex col-span-4"}>
+      <div className={"h-screen sticky top-0 bg-teal overflow-y-scroll hidden md:block lg:flex col-span-4"}>
         <SideBar currentSection={currentSection} switcher={changeCurrentSection} />
       </div>
 

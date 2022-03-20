@@ -55,7 +55,7 @@ const SideBar = (props) => {
 
 		return (
 
-			<div className={"h-full bg-teal flex flex-col px-8 pt-2"}>
+			<div className={"w-full h-full bg-teal flex flex-col px-8 pt-2"}>
 
 				<div className={" mb-2 px-10"}>
 						<div className={'text-white'}> 	<img alt={"logo"} className={'w-full'} src={'/assets/logo.svg'} /> </div>
