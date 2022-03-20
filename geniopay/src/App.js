@@ -14,7 +14,7 @@ const App = (props) => {
 
   const [currentSection,changeCurrentSection] = useState('Dashboard');
 
-  return (
+ 
 
    
    	<div className= {"w-full font-nunito"} >
